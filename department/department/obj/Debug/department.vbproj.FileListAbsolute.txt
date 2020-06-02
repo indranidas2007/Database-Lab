@@ -1,0 +1,15 @@
+C:\Users\Indrani\source\repos\department\department\bin\Debug\department.exe.config
+C:\Users\Indrani\source\repos\department\department\bin\Debug\department.exe
+C:\Users\Indrani\source\repos\department\department\bin\Debug\department.pdb
+C:\Users\Indrani\source\repos\department\department\bin\Debug\department.xml
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.vbprojAssemblyReference.cache
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.Form1.resources
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.Resources.resources
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.vbproj.GenerateResource.cache
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.vbproj.CoreCompileInputs.cache
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.exe
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.xml
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.pdb
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.Form2.resources
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.MainForm.resources
+C:\Users\Indrani\source\repos\department\department\obj\Debug\department.Form3.resources
