@@ -1,0 +1,14 @@
+C:\Users\Indrani\source\repos\bookstore\bookstore\bin\Debug\bookstore.exe.config
+C:\Users\Indrani\source\repos\bookstore\bookstore\bin\Debug\bookstore.exe
+C:\Users\Indrani\source\repos\bookstore\bookstore\bin\Debug\bookstore.pdb
+C:\Users\Indrani\source\repos\bookstore\bookstore\bin\Debug\bookstore.xml
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.Form1.resources
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.Resources.resources
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.vbproj.GenerateResource.cache
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.vbproj.CoreCompileInputs.cache
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.exe
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.xml
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.pdb
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.Form2.resources
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.Form3.resources
+C:\Users\Indrani\source\repos\bookstore\bookstore\obj\Debug\bookstore.mainform.resources

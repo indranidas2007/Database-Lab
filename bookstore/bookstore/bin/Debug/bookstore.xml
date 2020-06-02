@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bookstore
+</name>
+</assembly>
+<members>
+<member name="T:bookstore.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:bookstore.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:bookstore.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:bookstore.bookDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bookstore.bookDataSet.booksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bookstore.bookDataSet.booksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bookstore.bookDataSet.booksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bookstore.bookDataSetTableAdapters.booksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bookstore.bookDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bookstore.bookDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bookstore.bookDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bookstore.bookDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bookstore.bookDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bookstore.bookDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bookstore.bookDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bookstore.bookDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bookstore.bookDataSetTableAdapters.TableAdapterManager.UpdateAll(bookstore.bookDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bookstore.bookDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bookstore.bookDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bookstore.bookstoreDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bookstore.bookstoreDataSet.Book_storeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bookstore.bookstoreDataSet.Book_storeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bookstore.bookstoreDataSet.Book_storeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bookstore.bookstoreDataSetTableAdapters.Book_storeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bookstore.bookstoreDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bookstore.bookstoreDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bookstore.bookstoreDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bookstore.bookstoreDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bookstore.bookstoreDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bookstore.bookstoreDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bookstore.bookstoreDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bookstore.bookstoreDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bookstore.bookstoreDataSetTableAdapters.TableAdapterManager.UpdateAll(bookstore.bookstoreDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bookstore.bookstoreDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bookstore.bookstoreDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bookstore.storeDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bookstore.storeDataSet.stockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bookstore.storeDataSet.stockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bookstore.storeDataSet.stockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bookstore.storeDataSetTableAdapters.stockTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bookstore.storeDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bookstore.storeDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bookstore.storeDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bookstore.storeDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bookstore.storeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bookstore.storeDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bookstore.storeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bookstore.storeDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bookstore.storeDataSetTableAdapters.TableAdapterManager.UpdateAll(bookstore.storeDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bookstore.storeDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bookstore.storeDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
