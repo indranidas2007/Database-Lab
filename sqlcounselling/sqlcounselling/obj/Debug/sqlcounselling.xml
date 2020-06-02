@@ -1,0 +1,541 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sqlcounselling
+</name>
+</assembly>
+<members>
+<member name="T:sqlcounselling.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:sqlcounselling.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:sqlcounselling.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.addressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.adminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.courseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.addressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.adminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.courseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.addressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.adminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.courseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSetTableAdapters.addressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSetTableAdapters.adminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSetTableAdapters.courseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSetTableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(sqlcounselling.unicounsellingDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(sqlcounselling.unicounsellingDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(sqlcounselling.unicounsellingDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSetTableAdapters.TableAdapterManager.UpdateAll(sqlcounselling.unicounsellingDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet1.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet1.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet1.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet1TableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(sqlcounselling.unicounsellingDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(sqlcounselling.unicounsellingDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(sqlcounselling.unicounsellingDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet1TableAdapters.TableAdapterManager.UpdateAll(sqlcounselling.unicounsellingDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet2.payment_detailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet2.payment_detailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet2.payment_detailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet2TableAdapters.payment_detailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(sqlcounselling.unicounsellingDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(sqlcounselling.unicounsellingDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(sqlcounselling.unicounsellingDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet2TableAdapters.TableAdapterManager.UpdateAll(sqlcounselling.unicounsellingDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet3.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet3.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet3.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet3TableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(sqlcounselling.unicounsellingDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(sqlcounselling.unicounsellingDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(sqlcounselling.unicounsellingDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet3TableAdapters.TableAdapterManager.UpdateAll(sqlcounselling.unicounsellingDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet4.admission_detailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet4.admission_detailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet4.admission_detailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet4TableAdapters.admission_detailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(sqlcounselling.unicounsellingDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(sqlcounselling.unicounsellingDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(sqlcounselling.unicounsellingDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet4TableAdapters.TableAdapterManager.UpdateAll(sqlcounselling.unicounsellingDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet5.addressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet5.addressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet5.addressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet5TableAdapters.addressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(sqlcounselling.unicounsellingDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(sqlcounselling.unicounsellingDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(sqlcounselling.unicounsellingDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet5TableAdapters.TableAdapterManager.UpdateAll(sqlcounselling.unicounsellingDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet6.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet6.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet6.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet6TableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(sqlcounselling.unicounsellingDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(sqlcounselling.unicounsellingDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(sqlcounselling.unicounsellingDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sqlcounselling.unicounsellingDataSet6TableAdapters.TableAdapterManager.UpdateAll(sqlcounselling.unicounsellingDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sqlcounselling.unicounsellingDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
